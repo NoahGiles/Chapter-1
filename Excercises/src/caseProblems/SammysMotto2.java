@@ -1,6 +1,5 @@
 package caseProblems;
 
-import javax.swing.JOptionPane;
 
 public class SammysMotto2 {
 
