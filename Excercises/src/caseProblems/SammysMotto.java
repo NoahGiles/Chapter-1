@@ -1,4 +1,4 @@
-package caseproblems;
+package caseProblems;
 
 
 public class SammysMotto {

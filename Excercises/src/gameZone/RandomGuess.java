@@ -1,4 +1,4 @@
-package gamezone;
+package gameZone;
 
 import javax.swing.JOptionPane;
 

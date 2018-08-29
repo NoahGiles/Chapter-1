@@ -1,4 +1,4 @@
-package caseproblems;
+package caseProblems;
 
 import javax.swing.JOptionPane;
 
