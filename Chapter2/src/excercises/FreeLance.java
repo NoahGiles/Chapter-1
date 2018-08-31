@@ -15,13 +15,13 @@ public class FreeLance {
 		System.out.print("Please enter your name >> ");
 		Name = input.nextLine();
 		
-		System.out.print("Please enter first number >> ");
+		System.out.print("Please enter a first number >> ");
 		Num1 = input.nextInt();
 		
-		System.out.print("Please enter second number >> ");
+		System.out.print("Please enter a second number >> ");
 		Num2 = input.nextInt();
 	
-		Total = (Num1 + Num2);
+		Total = Num1 + Num2;
 		System.out.println("Your name is " + Name + ", and your total is " + Total);
 		
 		
