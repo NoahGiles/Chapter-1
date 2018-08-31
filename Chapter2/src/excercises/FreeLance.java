@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class FreeLance {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int Name;
+		String Name;
 		int Num1;
 		int Num2;
 		int Total;
@@ -14,13 +13,18 @@ public class FreeLance {
 		Scanner input = new Scanner(System.in);
 		
 		System.out.print("Please enter your name >> ");
-		Name = input.nextInt();
+		Name = input.nextLine();
+		
 		System.out.print("Please enter first number >> ");
 		Num1 = input.nextInt();
+		
 		System.out.print("Please enter second number >> ");
 		Num2 = input.nextInt();
-		System.out.print("Your total is " + Total);
-		Total = Num1 + Num2;
+	
+		Total = (Num1 + Num2);
+		System.out.println("Your name is " + Name + ", and your total is " + Total);
+		
+		
 		
 		
 	}
