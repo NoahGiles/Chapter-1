@@ -12,7 +12,7 @@ public class NauticalMilesInteractive {
 		Scanner input = new Scanner(System.in);
 
 		
-		System.out.print("Please insert a number of nautical miles >> ");
+		System.out.print("Please insert a number of desired nautical miles >> ");
 		NauticalMile = input.nextInt();
 		
 		
