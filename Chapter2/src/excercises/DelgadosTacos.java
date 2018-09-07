@@ -6,15 +6,18 @@ public class DelgadosTacos {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		System.out.println("  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX      ");
-		System.out.println("  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    ");
-		System.out.println("  XXXXXXXXXXXX            XXXXXXXXX  X       ");
-		System.out.println("  XXXXXXXXXXX              XXXXXXXX   X      ");
-		System.out.println("  X XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   ");
-		System.out.println("  X XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ");
-		System.out.println("  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ");
-		System.out.println("      X                               X      ");
+		System.out.println("      XXXXXXXXXXXXXXXXXXXXXXXXXXXXX             ");
+		System.out.println("    XXXX                         XXXX           ");
+		System.out.println("    XXX         T A C O S         XXX           ");
+		System.out.println("    XXXX                         XXXX           ");
+		System.out.println("  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX      ");
+		System.out.println("  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    ");
+		System.out.println("  XXXXXXXXXXXXX            XXXXXXXXXXX  X       ");
+		System.out.println("  XXXXXXXXXXXX              XXXXXXXXXX   X      ");
+		System.out.println("  XX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   ");
+		System.out.println("  XX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXX ");
+		System.out.println("  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ");
+		System.out.println("      X                                  X      ");
 		int Tacos;
 		int Burritos;
 		
@@ -26,9 +29,10 @@ public class DelgadosTacos {
 		Burritos = input.nextInt();
 		double TacoPrice = Tacos * 1.00;
 		double BurritoPrice = Burritos * 1.75;
-		double Tax = Tacos + Burritos * .07;
+		double Tax = (Tacos + Burritos) * .07;
 		double TotalPrice = TacoPrice + BurritoPrice + Tax;
-		System.out.println("Your total is " + TotalPrice);
+		System.out.println("Your total is $" + TotalPrice + ". Enjoy your food.");
+		
 		
 	}
 

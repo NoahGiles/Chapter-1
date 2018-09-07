@@ -12,18 +12,23 @@ public class RandomGuessMatch {
 		int Guess;
 		
 		
+		
 	
 		Scanner input = new Scanner(System.in);
 		
 		randomInt = 1 +(int)(Math.random() * MAX);
-	
+		
 		
 		System.out.println("Guess a number from 1 to 5 >> ");
 		Guess = input.nextInt();
 		
-		boolean ;
-
-		System.out.println("The number was " + randomInt);
+		if (Guess==randomInt) {
+			System.out.print("You got it right! The number was " + Guess + ".");
+		}
+		if (Guess!=randomInt) {
+			System.out.println("You got it wrong. The number was " + randomInt + ".");
+		}
+		
 	}
 
 }
