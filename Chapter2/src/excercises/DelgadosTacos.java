@@ -22,10 +22,13 @@ public class DelgadosTacos {
 		int Burritos;
 		
 		Scanner input = new Scanner(System.in);
+		
 		System.out.println("How many tacos do you want >> ");
 		Tacos = input.nextInt();
+		
 		System.out.println("How many burritos do you want >> ");
 		Burritos = input.nextInt();
+		
 		double TacoPrice = Tacos * 1.00;
 		double BurritoPrice = Burritos * 1.75;
 		double Tax = (Tacos + Burritos) * .07;
